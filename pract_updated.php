@@ -32,9 +32,9 @@ function biggestelem($big)
     $biggestcount = 0;
     $odinakcount = '';
 
-    foreach ($big as $i => $count) { // условие для нахождения наибольшего количества чисел
+    foreach ($big as $i => $count) { 
 
-        if ($count > $biggestcount) {
+        if ($count > $biggestcount) { // условие для нахождения наибольшего количества чисел
             $biggestelem = $i;
             $biggestcount = $count;
             $odinakcount = '';
