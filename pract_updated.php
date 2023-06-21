@@ -42,9 +42,8 @@ function biggestelem($big)
 
         elseif ($count === $biggestcount) { // условие для проверки одинаковых наибольших чисел
             $odinakcount = $i;
-
-            
         }
+                                    
     }
     if ($odinakcount == true) {
         return "\n" ."одинаковое наибольшее кол-во" . ' ' . $biggestelem . ' ' . "и" . ' ' . $i . ' ' ."чисел" . ":" . ' ' .$biggestcount . "\n";
